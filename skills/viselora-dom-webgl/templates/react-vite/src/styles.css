@@ -1,0 +1,60 @@
+:root {
+  color: #edecf5;
+  background: #111118;
+  font-family: system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 68rem;
+  margin-inline: auto;
+  padding: 8vw;
+}
+header {
+  min-height: 82vh;
+  padding-block: 12vh;
+}
+h1 {
+  width: fit-content;
+  font-size: clamp(2.4rem, 6vw, 5.5rem);
+  line-height: 1.04;
+  letter-spacing: -0.055em;
+}
+h2 {
+  max-width: 26ch;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+}
+p {
+  max-width: 42rem;
+  line-height: 1.7;
+  color: #c0bdcf;
+}
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+section {
+  min-height: 75vh;
+  padding-block: 12vh;
+  border-top: 1px solid #36333f;
+}
+a {
+  color: #beb0ff;
+  text-underline-offset: 0.25em;
+}
+a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 5px;
+}
+footer {
+  padding-block: 4rem;
+  color: #a6a1b8;
+}
